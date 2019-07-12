@@ -1,0 +1,81 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.appWrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.app{
+  background: #f2f2f2;
+  height: 150px;
+  border-radius: 11px;
+  width: 400px;
+  border: 1px solid #4a4949;
+  box-shadow: 0 0 10px #aaa;
+}
+.appHeader{
+  display: flex;
+  align-items: center;
+  color: #fff;
+  background: #4a4949;
+  height: 30px;
+  border-radius: 10px 10px 0 0;
+}
+.appHeader span{
+  margin-left: 10px;
+}
+.appFunc{
+  flex-wrap: wrap;
+  height: 100px;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  background: #fff;
+  margin: 0 auto;
+  border: 1px solid #d6d3d3;
+  border-radius: 10px;
+  margin-top: 10px;
+  width: 360px;
+}
+.appFunc .goalLine{
+  display: flex;
+  align-items: center;
+  width: 160px;
+  background: #cecece;
+  height: 15px;
+}
+.appFunc .goal{
+  padding-top: 20px;
+  line-height: 0px;
+  text-align: center;
+  position: relative;
+  right: 25px;
+  height: 40px;
+  width: 60px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #888588;
+  color: #fff;
+}
+.appFunc>span:first-child{
+  margin-left: 20px;
+}
+.appFunc .goalLine div{
+  margin-left: 2px;
+  background: #0489d1;
+  height: 8px;
+  transition: 1s;
+}
+.appFunc .goalIndex{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #000;
+  transition: 1s;
+  position: relative;
+  left: -185px;
+  top: 20px;
+}
